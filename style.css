@@ -10,7 +10,29 @@
 
 #page {
   width: 1120px;
-  margin: 85px 127px 40px 200px;
+  margin: 88px auto 0;
+}
+
+#destaque {
+  margin: 40px 0px;
+}
+
+#descubra p {
+  margin-top: 8px;
+}
+
+#principal img {
+  margin: 48px 0px 20px;
+}
+
+#principal p {
+  padding-top: 4px;
+}
+
+img {
+  border-radius: 16px;
+  width: 100%;
+  display: block;
 }
 
 h1 {
@@ -47,4 +69,50 @@ p {
 .text-secundary {
   color:  #222121;
   font-weight: bold;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; /* Muda estilo da fonte para itálico */
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
+
+ul li {
+  margin-left: 18px;
+}
+
+.lista-azul {
+  color: #0C51A7; 
+  font-weight: bold;
+}
+
+#lista-roxa {
+  color: #591B98; 
+  font-weight: bold;
+}
+
+#lista-rosa {
+  color: #E5245E; 
+  font-weight: bold;
+}
+
+#lista-laranja {
+  color: #E95E10; 
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 45px;
 }
